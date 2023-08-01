@@ -1,3 +1,3 @@
 
 # Алексей Сачков
-[Здание к 12 уроку] (https://sachkovae.github.io/lesson_12/) - Адаптивная верстка
+[Здание к 12 уроку] (https://sachkovae.github.io/lesson_12/,"test") - Адаптивная верстка
