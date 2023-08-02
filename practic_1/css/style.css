@@ -1,0 +1,30 @@
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #292929;
+}
+.button {
+  padding: 20px 12px;
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #f6ae01;
+  border: none;
+  border-radius: 5px;
+}
+.main {
+  padding-top: 15px;
+}
+.main header .row {
+  display: flex;
+  align-items: center;
+}
+.main header .row .header-phone {
+  text-align: end;
+  font-size: 2rem;
+  font-weight: bold;
+}
