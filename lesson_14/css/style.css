@@ -1,0 +1,41 @@
+body{
+	font-family: 'Bebas Neue', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Lobster', cursive;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
+
+
+.fonts p{
+	&:nth-child(1){
+		font-family: 'Open Sans',sans-serif;
+	}
+	&:nth-child(2){
+		font-family: 'Bebas Neue',sans-serif;
+	}
+	&:nth-child(3){
+		font-family: 'Lato',sans-serif;
+	}
+	&:nth-child(4){
+		font-family: 'Lobster',cursive,sans-serif;
+	}
+}
