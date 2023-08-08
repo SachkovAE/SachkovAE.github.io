@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4c4c4;
+}
+
+.modal-body{
+  text-align: center;
+}
