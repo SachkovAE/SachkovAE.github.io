@@ -7,4 +7,5 @@
 [Задание к 15 уроку](https://sachkovae.github.io/lesson_15/) - Псевдоэлементы  
 [Модуль 5. Практика 3](https://sachkovae.github.io/practic_3/) -  Адаптив первого экрана сайта  
 [Задание к 16 уроку](https://sachkovae.github.io/lesson_16/) - Слайдер  
-[Модуль 5. Практика 4](https://sachkovae.github.io/practic_4/) -  Экран с преимуществами
+[Модуль 5. Практика 4](https://sachkovae.github.io/practic_4/) -  Экран с преимуществами  
+[Задание к 17 уроку](https://sachkovae.github.io/lesson_17/) - Выслывающие окна
