@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'u-reg';
+    src: url('../font_ubuntu/Ubuntu-Regular.eot');
+    src: url('../font_ubuntu/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font_ubuntu/Ubuntu-Regular.woff2') format('woff2'),
+        url('../font_ubuntu/Ubuntu-Regular.woff') format('woff'),
+        url('../font_ubuntu/Ubuntu-Regular.ttf') format('truetype'),
+        url('../font_ubuntu/Ubuntu-Regular.svg#Ubuntu-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'u-bold';
+    src: url('../font_ubuntu/Ubuntu-Bold.eot');
+    src: url('../font_ubuntu/Ubuntu-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font_ubuntu/Ubuntu-Bold.woff2') format('woff2'),
+        url('../font_ubuntu/Ubuntu-Bold.woff') format('woff'),
+        url('../font_ubuntu/Ubuntu-Bold.ttf') format('truetype'),
+        url('../font_ubuntu/Ubuntu-Bold.svg#Ubuntu-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@color-laghtblue:#0bbaf0;
+@color-active:#ffffff;
+@color-default:#535353;
+@color-gray:#dbdbdb;
+
+.bold{
+    font-family: 'u-bold',sans-serif;
+}
+
+.reg(){
+    font-family: 'u-reg',sans-serif;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background: url("../img/bac_menu.jpg");
+    .main{
+        .container{            
+            .answers{
+                margin-top: 7.6rem;
+                .main-header{
+                    text-align: center;
+                    font-size: 2.4rem;
+                    .reg();
+                    color:#0bbaf0;
+                    text-transform: uppercase;
+                    span{
+                        display: block;
+                        font-size: 3.6rem;
+                        .bold();
+                    }   
+                }
+            }
+            .answer-item{
+                border:none;
+                outline: none;
+                .answer-button{
+                    font-size: 2.3rem;
+                    box-shadow: none;
+                    background-color: @color-laghtblue;
+                    color:@color-active;
+                    border-radius: 0;
+                }
+                .item-body{
+                    font-size: 2.2rem;
+                    color:@color-default;
+                    display: block;
+                    width: 98%;
+                    margin: 0 auto;
+                    border:.3rem solid @color-gray;
+                    border-top: 0;
+                    border-radius: 0 0 2px 2px;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+
