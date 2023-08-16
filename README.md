@@ -11,4 +11,4 @@
 [Задание к 17 уроку](https://sachkovae.github.io/lesson_17/) - Выслывающие окна  
 [Модуль 5. Практика 5](https://sachkovae.github.io/practic_5/) -  Высплывающее окно "получить консультацию"  
 [Задание к 18 уроку-1](https://sachkovae.github.io/lesson_18_tab/) - Форма  
-[Задание к 18 уроку-2](https://sachkovae.github.io/lesson_17_accord/) - Ответы
+[Задание к 18 уроку-2](https://sachkovae.github.io/lesson_18_accord/) - Ответы
