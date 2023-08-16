@@ -9,5 +9,6 @@
 [Задание к 16 уроку](https://sachkovae.github.io/lesson_16/) - Слайдер  
 [Модуль 5. Практика 4](https://sachkovae.github.io/practic_4/) -  Экран с преимуществами  
 [Задание к 17 уроку](https://sachkovae.github.io/lesson_17/) - Выслывающие окна  
-[Модуль 5. Практика 5](https://sachkovae.github.io/practic_5/) -  Высплывающее окно "получить консультацию"
-
+[Модуль 5. Практика 5](https://sachkovae.github.io/practic_5/) -  Высплывающее окно "получить консультацию"  
+[Задание к 18 уроку-1](https://sachkovae.github.io/lesson_18_tab/) - Форма
+[Задание к 18 уроку-2](https://sachkovae.github.io/lesson_17_accord/) - Ответы
