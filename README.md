@@ -12,4 +12,4 @@
 [Модуль 5. Практика 5](https://sachkovae.github.io/practic_5/) -  Высплывающее окно "получить консультацию"  
 [Задание к 18 уроку-1](https://sachkovae.github.io/lesson_18_tab/) - Форма  
 [Задание к 18 уроку-2](https://sachkovae.github.io/lesson_18_accord/) - Ответы
-[Модуль 5. Практика 6](https://sachkovae.github.io/practic_6/) -  Высплывающее окно "получить консультацию"  
+[Модуль 5. Практика 6](https://sachkovae.github.io/practic_6/) -  Блок с тарифами  
