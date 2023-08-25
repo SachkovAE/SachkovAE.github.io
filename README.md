@@ -13,3 +13,4 @@
 [Задание к 18 уроку-1](https://sachkovae.github.io/lesson_18_tab/) - Форма  
 [Задание к 18 уроку-2](https://sachkovae.github.io/lesson_18_accord/) - Ответы  
 [Модуль 5. Практика 6](https://sachkovae.github.io/practic_6/) -  Блок с тарифами  
+[Задание к 19 уроку](https://sachkovae.github.io/lesson_19/) - Анимация  
