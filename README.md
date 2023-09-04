@@ -15,3 +15,4 @@
 [Модуль 5. Практика 6](https://sachkovae.github.io/practic_6/) -  Блок с тарифами  
 [Задание к 19 уроку](https://sachkovae.github.io/lesson_19/) - Анимация  
 [Модуль 6. Практика 7](https://sachkovae.github.io/practic_7/) -  Блок с отзывами  
+[Задание к 20 уроку](https://sachkovae.github.io/lesson_20/) - Видеофон  
