@@ -1,0 +1,1036 @@
+@font-face {
+    font-family: 'ProximaNova_bold';
+    src: url('../fonts/ProximaNova-Bold.eot');
+    src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Bold.woff') format('woff'),
+        url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ProximaNova_reg';
+    src: url('../fonts/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff'),
+        url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@main-color: #45b513;
+@button-color: #f6ae01;
+@font-color: #292929;
+@border-color: #dddddd;
+@font-marks: #565656;
+
+.reg() {
+    font-family: 'ProximaNova_reg', sans-serif;
+}
+
+.bold() {
+    font-family: 'ProximaNova_bold', sans-serif;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+html {
+    .reg();
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: @font-color;
+}
+
+.smal {
+    display: none;
+}
+
+.button {
+    display: inline-block;
+    padding: 2rem 1.2rem;
+    color: #fff;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: @button-color;
+    border: none;
+    border-radius: .5rem;
+
+    &:hover {
+        color: #fff;
+        box-shadow: inset 0 0 5rem @font-color;
+        transition: box-shadow ease 1s;
+    }
+}
+
+.arrow {
+    position: absolute;
+    width: 1.3rem;
+    height: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    outline: none;
+    background: none;
+    z-index: 10;
+
+}
+
+.prev {
+    left: 0;
+    background: url('../img/arrow.svg') center center no-repeat;
+    transform: rotateY(180deg);
+}
+
+.next {
+    background: url('../img/arrow.svg') center center no-repeat;
+    right: 0;
+}
+
+.section-header {
+    text-align: center;
+    font-size: 3.6rem;
+    .bold();
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.feedback-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 5rem;
+    height: 6rem;
+    // left: -5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #49bf15;
+    font-size: 6rem;
+    color:#fff;
+}
+
+.feedback-prev img, .feedback-next img{
+    width: 1.3rem;
+    height: 2rem;
+}
+
+
+
+.feedback-prev {
+    left:-5rem;
+    img{
+        transform:rotateY(180deg);
+    }
+}
+
+.feedback-next{
+    right: -5rem;
+}
+
+
+.main {
+    .head{
+        margin-bottom: 9.9rem;
+        padding-top: 1.5rem;
+        padding-bottom: 4rem;
+        background: #fff url("../img/background1.jpg") center center no-repeat;
+        background-size: cover;
+        
+        .header{
+            margin-bottom: 10.4rem;
+            .header-content{
+                display: flex;
+                align-items: center;
+            }
+    
+            .header-phone{
+                padding-right: 1rem;
+                font-size: 2rem;
+                text-align: end;
+                .bold();
+            }
+        }
+
+        .info {
+            .left-side {        
+                display: inline-block;     
+                .main-title {
+                    .bold();
+                    display: inline-block;
+                    margin-bottom: 5.3rem;
+                    font-size: 4rem;
+                    line-height: 5.6rem;
+                    text-transform: uppercase;
+                }
+
+                .main-subtitle {
+                    .reg();
+                    margin-bottom: 6.3rem;
+                    font-size: 2.4rem;
+                    line-height: 1.2;
+                }
+
+                .head-banner {
+                    .bold();
+                    display: inline-block;
+                    margin-bottom: 3.7rem;
+                    padding: 3rem 4rem;
+                    text-align: center;
+                    background-color: #45b513;
+                    font-size: 1.8rem;
+                    color: #fff;
+
+                    & .banner-caption,
+                    & .banner-content {
+                        display: block;
+                    }
+
+                    & .banner-price {
+                        font-size: 3rem;
+                    }
+                }
+
+                .pay-time {
+                    .bold();
+                    text-transform: uppercase;
+                    font-size: 2.2rem;
+                }
+            }
+            .right-side {
+                display: inline-block;
+
+                .form {
+
+                    margin-bottom: 3.6rem;
+                    padding: 4.6rem 5rem;
+                    background-color: #fff;
+
+                    .form-header {
+                        .reg();
+                        margin-bottom: 3.9rem;
+                        font-size: 1.8rem;
+                        line-height: 1.2;
+                        text-align: center;
+
+                        .strong-text {
+                            font-weight: bold;
+                        }
+                    }
+
+                    .form-inputs {
+                        position: relative;
+
+                        .form-label {
+                            display: inline;
+                            position: absolute;
+                            padding: 0 0.5rem;
+                            left: 50%;
+                            transform: translateX(-50%) translateY(-50%);
+                            font-size: 1.4rem;
+                            background-color: #fff;
+                        }
+
+                        .form-input {
+                            display: block;
+                            width: 100%;
+                            height: 5.4rem;
+                            margin-bottom: 2.5rem;
+                            border: 1px solid @border-color;
+                        }
+
+                        button {
+                            width: 100%;
+                            padding: 2.7rem 5.5rem;
+                            margin-bottom: 1.5rem;
+                            font-size: 1.6rem;
+                        }
+
+                        .comment {
+                            margin: 0;
+                            font-size: 1.2rem;
+                            text-align: center;
+                            color: @font-marks;
+                        }
+                    }
+
+                }
+
+                .time-info {
+                    margin-bottom: 0;
+                    margin-left: 3rem;
+                    font-size: 1.2rem;
+                    line-height: 1.2;
+                    color: @font-marks;
+                }
+            }
+        }
+    }
+
+
+    .features {
+        margin-bottom: 12.1rem;
+        .section-header {
+            margin-bottom: 12.5rem;
+        }
+
+        .features-slider {
+            .feature-item {
+                text-align: center;
+
+                .feature-caption {
+                    font-size: 2rem;
+                    .bold();
+                }
+
+                .feature-img {
+                    margin-bottom: 6.4rem;
+
+                    img {
+                        display: inline-block;
+                        width: 7rem;
+                        height: 7rem;
+                    }
+                }
+
+                .feature-text {
+                    display: inline-block;
+                    width: 90%;
+                    font-size: 1.6rem;
+                    line-height: 2rem;
+                }
+            }
+        }
+    }
+
+
+
+    .price {
+        position: relative;
+        background: url("../img/background2.jpg");
+        padding-top:12rem;
+        padding-bottom: 12rem;
+
+        .section-head {
+            text-align: center;
+            margin-bottom: 9rem;
+
+            h2 {
+                display: inline-block;
+
+                font-size: 1.8rem;
+                .reg();
+                text-align: center;
+                color: @border-color;
+
+                span {
+                    text-transform: capitalize;
+                    display: block;
+                    margin-bottom: 4.9rem;
+                    font-size: 3.6rem;
+                    .bold();
+                }
+            }
+
+            .button {
+                position: absolute;
+                top: 0;
+                right: 0;
+                max-height: 7rem;
+            }
+        }
+
+        .section-content {
+
+            .tarif {
+                
+                text-align: center;
+
+                .tarif-wrapper {
+                    width: 100%;
+                    display: inline-block;
+                    background-color: #fff;
+                    padding: 5rem;
+                    height: 100%;
+                    min-height: 6.6rem;
+
+                    .tarif-header {
+                        margin-bottom: 3.5rem;
+                        font-size: 1.9rem;
+                        .bold();
+                    }
+
+                    .tarif-img {
+                        width: 100%;
+                        max-width: 30rem;
+                        margin-bottom: 3.5rem;
+                    }
+
+                    .tarif-price {
+                        display: block;
+                        font-size: 1.9rem;
+                        line-height: 2rem;
+                        margin-bottom: 3.5rem;
+                        .bold();
+
+                        .num {
+                            font-size: 3rem;
+                        }
+                    }
+
+                    .tarif-link{
+                        display: none;
+                    }
+
+                    .tarif-services {
+                        font-size: 1.8rem;
+                        line-height: 3rem;
+                        height: 13rem;
+                        margin-bottom: 4.8rem;
+
+                        .service-item{
+                           display: flex;
+                           justify-content: center;
+                           align-items: center;
+                        }
+
+                        .service-item::before{
+                            content:'';
+                            display: block;
+                            width: 1rem;
+                            height: 1rem;
+                            background: url("../img/check.svg");
+                            margin-right: 1rem;
+                        }
+                    }
+
+                    
+
+                    .btn-price {
+                        padding: 2.6rem 6rem;
+                    }
+                }
+            }
+
+            .price-button{
+                display: inline-block;
+               
+                .price-btn{
+                    position: absolute;
+                    left: 95.2%;
+                    top: 12rem;
+                    transform: translateX(-100%);
+                }
+            }
+        }
+
+    }
+
+
+    .feedback{
+        padding-top: 11.4rem;
+        .container{
+            .section-header{
+                margin-bottom: 4rem;
+            }
+            .section-content{
+                padding: 0 5rem;    
+
+                .feedback-list{
+                    position: relative;
+                    padding: 6rem;
+                    margin-bottom: 6rem;
+                    box-shadow: 0px 12px 18px 0px rgba(0,0,0,0.1);
+    
+                    .feedback-item{
+                    
+                        .row{
+                               .feedback-photo{
+
+                                    .fotorama__stage{
+                                        margin-bottom: 1rem;
+                                    }
+                               } 
+                            
+                               .feedback-comment{
+                                    padding-right: 2rem;
+                                    .feedback-info{
+                        
+                                        .object-info{
+                                            font-size: 1.6rem;
+                                            margin-bottom: 4.7rem;
+                                            span{
+                                                display: inline-block;
+                                                width: 100%;
+                                                line-height: 2;
+                                                strong{
+                                                    .bold();
+                                                }
+                                            }
+                                        }
+                                        .customer-info{
+                                            display: flex;
+                                            align-items: center;
+                                            margin-bottom: 4.1rem;
+                                            .customer-avatar, .customer-name{
+                                                display: inline-block;
+                                            }
+
+                                            .customer-avatar{
+                                                margin-right: 2rem;
+                                                img{
+                                                    display: block;
+                                                    width: 5rem;
+                                                    height: 5rem;
+                                                }
+                                            }
+                                            .customer-name{
+                                                height: 100%;
+                                                font-size: 1.4rem;
+                                                .customer-fio{
+                                                    display: block;
+                                                    font-size: 1.6rem;
+                                                    .bold();
+                                                }
+                                            }
+
+                                        }
+                                        .customer-feedback{
+                                            position: relative;
+                                            padding: 1rem 2.4rem;
+                                            border:.2rem solid #49bf15;
+                                            p{
+                                                font-style: italic;
+                                            }
+
+                                            &::before{
+                                                content:'';
+                                                display: block;
+                                                position: absolute;
+                                                width: 2rem;
+                                                height: 2rem;
+                                                
+                                                left: 4rem;
+                                                top: -2rem;
+                                                background-color: #fff;
+                                                border:.2rem solid #49bf15;
+                                                border-top-right-radius:100% ;
+                                                border-bottom: none;
+
+                                              
+                                            }
+                                            
+                                            
+                                        }
+                                    }
+                               }
+                            
+                            
+                        }
+                    }
+                }
+
+
+            }
+
+        }
+    }
+
+
+
+
+}
+
+
+.popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+
+    &-content {
+        position: relative;
+        text-align: center;
+        background-color: #fff;
+        padding: 3.5rem;
+
+        .popup-header {
+            .contact-form-close {
+                position: absolute;
+                top: -1.8rem;
+                right: -4rem;
+                background: transparent;
+                color: #fff;
+                border: none;
+                font-size: 3rem;
+
+
+            }
+        }
+
+        p {
+            margin-bottom: 4rem;
+            .reg();
+            font-size: 1.8rem;
+
+            span {
+                .bold();
+                display: block;
+            }
+        }
+
+        .form-inputs {
+            position: relative;
+
+            .form-label {
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%) translateY(-50%);
+                padding: 0 .5rem;
+                font-size: 1.3rem;
+                background-color: #fff;
+            }
+
+            .form-input,
+            textarea {
+                border: 1px solid #dddddd;
+                display: block;
+                width: 100%;
+                margin-bottom: 2.6rem;
+                outline: none;
+                border-radius: .5rem;
+
+            }
+
+            .form-input {
+                height: 5.4rem;
+            }
+
+            textarea {
+                height: 9.1rem;
+                margin-bottom: 1.6rem;
+            }
+
+
+        }
+    }
+}
+
+
+@media(max-width:1200px) {
+    .main {
+        .head {
+
+            & .container {
+
+                & .info {
+                    font-size: 1.8rem;
+                    margin-top: 13.8rem;
+
+                    & .left-side {
+                        text-align: center;
+
+                        & .main-title {
+                            margin-bottom: 2.2rem;
+                            font-size: 2.2rem;
+                            line-height: 1.5;
+                        }
+                    }
+
+                    .right-side {
+
+                        & .form {
+                            // margin: 0 1rem 2.2rem;
+                            padding: 2rem;
+
+                            & .button {
+                                padding: 2.2rem 4.7rem;
+                                font-size: 1.6rem;
+                            }
+                        }
+
+                        & .time-info {
+                            display: inline-block;
+                            margin: 0;
+                            width: 100%;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+}
+
+
+@media(max-width:1024px){
+    .main{
+        .price{
+            .container{
+                .section-content{
+                    .tarif-row{
+                        .tarif{
+                            .tarif-wrapper{
+                                padding: 2rem;
+                                .tarif-header{
+                                    span{
+                                        display: block;
+                                    }
+                                }
+                                }
+                            }
+                        }
+                    }
+            }
+        }
+    }
+}
+
+
+
+@media(max-width: 992px) {
+    .main {
+        .head {
+            background-position: left;
+
+            & .container {
+
+                & .info {
+                    font-size: 1.8rem;
+                    margin-top: 13.8rem;
+
+                    & .left-side {
+                        text-align: center;
+                        margin-bottom: 2rem;
+
+                        & .main-title {
+                            margin-bottom: 2.2rem;
+                            font-size: 2.2rem;
+                            line-height: 1.5;
+                        }
+                    }
+
+                    .right-side {
+
+                        & .form {
+                            margin: 0 1rem 2.2rem;
+                            padding: 2rem;
+
+                            & .button {
+                                padding: 2.2rem 4.7rem;
+                                font-size: 1.6rem;
+                            }
+                        }
+
+                        & .time-info {
+                            display: inline-block;
+                            margin: 0;
+                            width: 100%;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .tarif{
+            &:not(:last-child){ 
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .main {
+        .head {
+            background-position: left;
+
+            & .container {
+
+                & .info {
+                    font-size: 1.8rem;
+                    margin-top: 13.8rem;
+
+                    & .left-side {
+                        text-align: center;
+                        margin-bottom: 2rem;
+
+                        & .main-title {
+                            margin-bottom: 2.2rem;
+                            font-size: 2.2rem;
+                            line-height: 1.5;
+                        }
+                    }
+
+                    .right-side {
+
+                        & .form {
+                            // margin: 0 1rem 2.2rem;
+                            padding: 2rem;
+
+                            & .button {
+                                padding: 2.2rem 4.7rem;
+                                font-size: 1.6rem;
+                            }
+                        }
+
+                        & .time-info {
+                            display: inline-block;
+                            margin: 0;
+                            width: 100%;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .price{
+            
+            .container{
+                .section-content{
+                    .tarif-row{
+                        .price-button{
+                            display: inline-block;
+                            width: 100%;
+                            
+                            .price-btn{
+                                position: relative;
+                                font-size: 1.5rem;
+                                padding: 2rem 1.3rem;
+                                left:100%;
+                                top: 3rem;
+                                width:100%;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .tarif-list{
+                .tarif-row{
+                    .tarif{
+                        .tarif-wrapper{
+                            padding: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .tarif{
+            
+            &:not(:last-child){
+                
+                margin-bottom: 1rem;
+            }
+
+            .price-button{
+                display: inline-block;
+               
+            }
+
+
+        }
+    }
+}
+
+@media(max-width: 575px) {
+
+    .main {
+    
+        .head {
+            padding-top: 0;
+            background-position: left;
+            margin-bottom: 4rem;
+            
+            .header{
+                position: absolute;
+                top: 0;
+            }
+
+            .container {
+                position: relative;
+
+                .header {
+                    position: relative;
+                    background-position: left;
+
+                    .row {
+                        padding: 1rem;
+                        background-color: #fff;
+
+                        .logo-link {
+                            position: absolute;
+                            text-align: center;
+                            top: 9rem;
+                        }
+
+                        .header-phone {
+                            font-size: 1.4rem;
+                            text-align: left;
+                        }
+
+                        .button {
+                            padding: 1.4rem 1rem;
+                            font-size: 1.2rem;
+
+                            .smal {
+                                display: block;
+                            }
+
+                            .big {
+                                display: none;
+                            }
+                        }
+
+                    }
+                }
+
+                .info {
+                    font-size: 1.8rem;
+                    margin-top: 13.8rem;
+
+                    .left-side {
+                        text-align: center;
+
+                        .main-title {
+                            margin-bottom: 2.2rem;
+                            font-size: 2.2rem;
+                            line-height: 1.5;
+                        }
+                    }
+
+                    .right-side {
+                        margin-bottom: 3rem;
+                        .form {
+                            margin: 2.2rem 1rem;
+                            padding: 2.2rem;
+                            .form-label{
+                                padding: 0;
+                            }
+
+                            .button {
+                                padding: 2rem;
+                                font-size: 1.6rem;
+                            }
+                        }
+
+                        .time-info {
+                            display: inline-block;
+                            margin: 0;
+                            width: 100%;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .price{
+            position: relative;
+            padding-top: 3rem;
+            text-align: center;
+            .section-head{
+                position: static;
+                margin-bottom: 2rem;
+                .caption{
+                    span{
+                        margin-bottom: 2rem;
+                    }
+                }
+            }
+
+            .section-content{
+                .tarif-row{
+                    .tarif{
+                        .tarif-wrapper{
+                            padding: 2.2rem 1.5rem;
+                            .tarif-price{
+                                margin-bottom: 2rem;
+                            }
+            
+                            .tarif-link{
+                                display: inline-block;
+                                margin-bottom: 2.4rem;
+                                font-size: 1.8rem;
+                                color:#006b00;
+                                border-bottom: 1px solid #006b00;
+                            }
+    
+            
+                            .tarif-services{
+                                display: none;
+                            }
+    
+                            .btn-price{
+                                padding: 2.1rem 6rem;
+                                border-radius: 1rem;
+                            }
+                        }
+        
+    
+                    }
+                }
+
+                .price-button{
+                    display: inline-block;
+                    width: 100%;
+                    
+                    .price-btn{
+                        position: relative;
+                        font-size: 1.5rem;
+                        padding: 2rem 1.3rem;
+                        left:100%;
+                        top: 3rem;
+                        width:100%;
+                    }
+                }
+            }
+
+    
+            
+        }
+    }
+}
+
+
+
+.hide {
+    display: none;
+}
+
+.active {
+    display: block;
+}
