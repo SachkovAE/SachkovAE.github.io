@@ -16,4 +16,4 @@
 [Задание к 19 уроку](https://sachkovae.github.io/lesson_19/) - Анимация  
 [Модуль 6. Практика 7](https://sachkovae.github.io/practic_7/) -  Блок с отзывами  
 [Задание к 20 уроку](https://sachkovae.github.io/lesson_20/) - Видеофон  
-[Модуль 6. Практика 8](https://sachkovae.github.io/practic_7/) -  Блок с отзывами(продолжение)  
+[Модуль 6. Практика 8](https://sachkovae.github.io/practic_8/) -  Блок с отзывами(продолжение)  
