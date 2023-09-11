@@ -17,3 +17,4 @@
 [Модуль 6. Практика 7](https://sachkovae.github.io/practic_7/) -  Блок с отзывами  
 [Задание к 20 уроку](https://sachkovae.github.io/lesson_20/) - Видеофон  
 [Модуль 6. Практика 8](https://sachkovae.github.io/practic_8/) -  Блок с отзывами(продолжение)  
+[Задание к 20 уроку](https://sachkovae.github.io/lesson_21/) - Параллакс  
