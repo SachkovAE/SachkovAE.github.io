@@ -18,3 +18,4 @@
 [Задание к 20 уроку](https://sachkovae.github.io/lesson_20/) - Видеофон  
 [Модуль 6. Практика 8](https://sachkovae.github.io/practic_8/) -  Блок с отзывами(продолжение)  
 [Задание к 21 уроку](https://sachkovae.github.io/lesson_21/) - Параллакс  
+[Модуль 6. Практика 9](https://sachkovae.github.io/practic_9/) -  Блок со схемой работы и "включено"
