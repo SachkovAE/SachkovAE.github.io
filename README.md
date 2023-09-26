@@ -19,4 +19,5 @@
 [Модуль 6. Практика 8](https://sachkovae.github.io/practic_8/) -  Блок с отзывами(продолжение)  
 [Задание к 21 уроку](https://sachkovae.github.io/lesson_21/) - Параллакс  
 [Модуль 6. Практика 9](https://sachkovae.github.io/practic_9/) -  Блок со схемой работы и "включено"  
-[Задание к 22 уроку](https://sachkovae.github.io/lesson_22/) - Параллакс  
+[Задание к 22 уроку](https://sachkovae.github.io/lesson_22/) - Параллакс
+[Модуль 6. Практика 10](https://sachkovae.github.io/practic_9/) -  Блок "Мы развеем все опасения"   
